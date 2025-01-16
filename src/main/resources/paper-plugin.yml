@@ -1,0 +1,21 @@
+name: HBAbility
+version: '1.0-SNAPSHOT'
+main: com.highbelief.HBAbility
+api-version: '1.21'
+
+commands:
+  시작:
+    description: 게임을 시작합니다.
+    usage: /<command>
+  중지:
+    description: 게임을 중단합니다.
+    usage: /<command>
+  상태:
+    description: 현재 게임 상태를 확인합니다.
+    usage: /<command>
+  능력:
+    description: 자신의 능력을 확인합니다.
+    usage: /<command>
+  종료지점설정:
+    description: 게임 종료 후 이동할 지점을 설정합니다.
+    usage: /<command> <X Y Z>
